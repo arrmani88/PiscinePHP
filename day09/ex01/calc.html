@@ -1,0 +1,69 @@
+<?DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: linear-gradient( 100deg, #F0FF00 10%, #58CFFB 100%);
+            }
+            .title{
+                font-size: 50px;
+                text-align: center;
+            }
+            .content{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="content">
+        <div class="title"><h1>Makinate le7sab</h1></div>
+        <t>Number 1 </t><input type="text" id="nb1">
+        <select id="opr">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+        </select>
+        <t>Number 2 </t> <input type="text" id="nb2">
+        <input type="submit" value="Try me!" onclick="calculate()">
+    </div>
+    </body>
+    <script>
+        setInterval(function(){ alert("Please, use me..."); }, 30000);
+        function calculate() {
+            var nb1 = Number(document.getElementById("nb1").value);
+            var nb2 = Number(document.getElementById("nb2").value);
+            var opr = document.getElementById("opr").value;
+            var rtr;
+            if (nb1 < 0 || nb2 < 0) {
+                alert("Error :(");
+                return ;
+            }
+            if (nb2 == 0 && (opr == '%' || opr == '/')) {
+                console.log("It’s over 9000!");
+                alert("It’s over 9000!");
+                return ;
+            }
+            switch (opr) {
+                case "+":
+                    rtr = nb1 + nb2;
+                    break;
+                case "-":
+                    rtr = nb1 - nb2;
+                    break;
+                case "*":
+                    rtr = nb1 * nb2;
+                    break;
+                case "/":
+                    rtr = nb1 / nb2;
+                    break;
+                case "%":
+                    rtr = nb1 % nb2;
+                    break;
+            }
+            console.log(rtr);
+            alert(rtr);
+        }
+    </script>
+</html>

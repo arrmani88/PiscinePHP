@@ -1,0 +1,120 @@
+body{
+    background-color: #505050;
+}
+.top_box{
+	padding: 10px;
+	background-color:#909090;
+	border-radius: 10px;
+	width: 1370px;
+	height: 110px;
+	box-shadow: 8px 8px 10px black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+}
+.left_box{
+	padding: 10px;
+	background-color: #909090;
+	border-radius: 10px;
+	width: 120px;
+	height: 380px;
+	margin-top: 15px;
+	position: relative;
+	box-shadow: 8px 8px 10px black;
+	left: -580px;
+	top: -575px;
+}
+.right_box{
+	padding: 10px;
+	background-color: #909090;
+	border-radius: 10px;
+	width: 120px;
+	height: 380px;
+	margin-top: 15px;
+	position: relative;
+	box-shadow: 8px 8px 10px black;
+	right: -580px;
+	top: -990px;
+}
+.middle_box{
+	padding: 10px;
+	background-color: #909090;
+	border-radius: 10px;
+	width: 960px;
+	height: 540px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 8px 8px 10px black;
+	border-radius: 5px;
+}
+.green_box{
+	text-align: start;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #88ff89;
+	position: relative;
+	width: 480px;
+	height: 150px;
+	box-shadow: 8px 8px 10px black;
+	top: -900px;
+	left: -450px;
+	margin-top: 0px;
+	font-family: sans-serif;
+}
+.d42_img{
+	height: 110px;
+}
+.loupe_icon{
+	position: relative;
+	height: 130px;
+	left: 20px;
+	top: 10px;
+}
+.close_icon{
+	margin-top: 95px;
+	position: relative;
+	right: -20px;
+}
+.reload_icon{
+	height: 20px;
+}
+.cluster_img{
+	width: 960px;
+}
+.left_icons{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75px;
+}
+.eye_icon{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	border: solid 4px red;
+	border-radius: 4px;
+}
+.book_icon{
+	width: 75px;
+	height: 95px;
+}
+.towel_icon{
+	width: 80px;
+	height: 60px;
+}
+.brick_icon{
+	background-image: url(resources/brick.jpg);
+	width: 120px;
+	height: 70px;
+}
+.entrez{
+	font-size: 35px;
+	font-family: serif;
+}
+.ordi{
+	display: inline;
+	text-shadow: 4px 4px 4px red;
+}
+button{
+	background-color: #f1f1f1;
+}

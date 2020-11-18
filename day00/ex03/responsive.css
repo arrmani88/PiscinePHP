@@ -1,0 +1,47 @@
+table{
+    width: 100%;
+}
+td{
+    font-size: 2vw;
+}
+h1{
+    margin: 0;
+}
+body{
+    
+    background-image: url(https://i.imgur.com/tQkN4kf.jpg);
+    background-size: cover;
+}
+.elem{
+    border: 0.05vw solid black;
+    text-align: center; 
+    margin: 0;
+}
+.atomic_wgt{
+    font-weight: 200;
+    text-align: right; 
+    margin: 0; 
+    margin-right: 0.4vw;
+    font-size: 1vw;
+}
+.elem_num{
+    font-weight: 200;
+    text-align: left;
+    margin: 0;
+    margin-left: 0.4vw;
+    font-size: 1vw;
+}
+.bold{
+    font-weight: bold;
+}
+#orange{background-color: #ed553b;}
+#b_blue{background-color: #1e6cac;}
+#sky_blue{background-color: #00F7FF;}
+#dd_green{background-color: #005D07;}
+#b_green{background-color: #3caea3;}
+#bb_green{background-color: #afaa;}
+#d_yellow{background-color: #f6d55c;}
+#b_grey{background-color: #afafaf;}
+#b_magenta{background-color: #800080;}
+#brown{background-color: #6F3A0C;}
+#white{background-color: white;}
